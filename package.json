@@ -1,0 +1,27 @@
+{
+    "name": "codeceptjs-snippets",
+    "displayName": "codeceptjs-snippets",
+    "description": "Simple CodeceptJS snippets",
+    "version": "0.0.1",
+    "publisher": "Rico Wilcke",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ranitzky/codeceptjs-snippets"
+    },
+    "keywords": ["CodeceptJS", "CodeceptJS Snippets"],
+    "icon" :"icon.png",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

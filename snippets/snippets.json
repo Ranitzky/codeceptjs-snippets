@@ -1,0 +1,78 @@
+{
+  "New Feature": {
+    "prefix": "fet",
+    "body": [
+      "Feature('@${1:Tag}: ${2:Title}');"
+    ],
+    "description": "Creates a new scenario"
+  },
+  "New Scenario": {
+    "prefix": "nsc",
+    "body": [
+      "Scenario('${1:Title}', (I) => {",
+      "    ${2:// add steps here}",
+      "});"
+    ],
+    "description": "Creates a new scenario"
+  },
+
+  "New Scenario with tags": {
+    "prefix": "nsct",
+    "body": [
+      "Scenario('${1:Title}', (I) => {",
+      "    ${3:// add steps here}",
+      "}).tag('@${2:Tags}');"
+    ],
+    "description": "Creates a new scenario with tags"
+	},
+	
+	"Before": {
+    "prefix": "bef",
+    "body": [
+      "Before((I) => {",
+      "    ${1:// add steps here}",
+      "});"
+    ],
+    "description": "Creates a before step"
+	},
+
+	"Before suite": {
+    "prefix": "befs",
+    "body": [
+      "BeforeSuite((I) => {",
+      "    ${1:// add steps here}",
+      "});"
+    ],
+    "description": "Creates a before suite step"
+	},
+
+	"After": {
+    "prefix": "aft",
+    "body": [
+      "After((I) => {",
+      "    ${1:// add steps here}",
+      "});"
+    ],
+    "description": "Creates a after step"
+	},
+
+	"After suite": {
+    "prefix": "afts",
+    "body": [
+      "AfterSuite((I) => {",
+      "    ${1:// add steps here}",
+      "});"
+    ],
+    "description": "Creates a after suite step"
+	},
+
+	"Within": {
+    "prefix": "wit",
+    "body": [
+      "within('${1:Selector}', () => {",
+      "    ${2:// add steps here}",
+      "});"
+    ],
+    "description": "Creates a after suite step"
+	}
+}
